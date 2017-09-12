@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Walter Cheng</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="stylesheet.css"/>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header" id="header">
+				<a class="navbar-brand" href="portfolio.html">W</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right" id="headbar">
+				<li><a href="resume.html">Resume</a></li>
+				<li class="active"><a href="project.html">Project</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h2>Project</h2>
+		</div>
+	</div>
+
+	<!--Slide show-->
+	<div id="project-two" class="carousel slide" data-ride="carousel" align="center">
+		<ol class="carousel-indicators">
+			<li data-target="#project-two" data-slide-to="0" class="active"></li>
+			<li data-target="#project-two" data-slide-to="1"></li>
+			<li data-target="#project-two" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner">
+			<div class="item active"> <img src="./Assets/004.png" alt="Opening" style="width:400px"> </div>
+			<div class="item"> <img src="./Assets/005.png" alt="Gaming" style="width:400px"> </div>
+			<div class="item"> <img src="./Assets/006.png" alt="Half life" style="width:400px"> </div>
+		</div>
+
+		<a class="left carousel-control" href="#project-two" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#project-two" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+	<!--Slide show end-->
+
+	<br/>
+
+	<div class="row game-info">
+		<div class="col-sm-3">
+			<h4>Platform:</h4>
+			<p>Window PC, Max OS</p>
+			<br>
+			<h4>Software:</h4>
+			<p>Processing</p>
+			<br>
+			<h4>Langauges:</h4>
+			<p>Java</p>
+			<br>
+			<h4>Finished at:</h4>
+			<p>2016 Fall</p>
+		</div>
+		<div class="col-sm-9">
+			<h4>Ball Game</h4>
+			<p>A coding practice game that based on the game rule of a mobile app game : BBTAN from 111%</p>
+			<br>
+			<p>Basic game rules of BBTAN:</p>
+			<p>   Player will have ball(s) that can shoot at where they point to, balls will damage the boxes and deduct 1 hp/number from them, and bounce around between balls and walls.</p>
+			<p>   The number of balls will be increased after one of the balls hit the circle with "+" sign.</p>
+			<p>   Balls will stop after they hit the ground. After all balls stop, all balls will be repositioned to a same location where the first ball stopped. Also, all boxes will go down by one block and generate a new row of boxes at the top of the screen. Hp/number of the boxes will increase per round.</p>
+			<p>   If one box hit the ground, the game will be ended. Therefore, player should destroy the boxes as quick as they can by aimming the suitable position.</p>
+			<br>
+
+			<h4>Design:</h4>
+			<p>Purchase system to unlock skins or abilities</p>
+			<p>Abilities that different from the original game:</p>
+			<p>->tool that can spawn small balls to all direction and damage the boxes</p>
+			<p>->tool that can show the invisible boxes (Boxes will turn invisible after a certain scores in my game)</p>
+			<p>->tool that will randomly hit boxes</p>
+			<p>->tool that will make the balls stop repositioning in the next round</p>
+			<p>->tool that will add a prediction line in the next round</p>
+			<p>->bomb that will damage the boxes within 3x3 size around it</p>
+			<p>->X-ray that will generate two diagonal line to damage any boxes that collide with</p>
+
+			<br>
+
+			<h4>Download:</h4>
+			<a href="./Assets/Ball-Game.zip" download>
+				<h1> <span class="glyphicon glyphicon-download-alt"> </h1>
+			</a>
+
+			<br>
+
+			<h4>Code:</h4>
+			<a href="https://github.com/Walter0697/Ball-Game">
+				<img src="./Assets/GitHub-Mark-Light-64px.png" />
+			</a>
+		</div>
+	</div>
+
+</body>
+</html>

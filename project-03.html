@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Walter Cheng</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="stylesheet.css"/>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header" id="header">
+				<a class="navbar-brand" href="portfolio.html">W</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right" id="headbar">
+				<li><a href="resume.html">Resume</a></li>
+				<li class="active"><a href="project.html">Project</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h2>Project</h2>
+		</div>
+	</div>
+
+	<!--Slide show-->
+	<div id="project-three" class="carousel slide" data-ride="carousel" align="center">
+		<ol class="carousel-indicators">
+			<li data-target="#project-three" data-slide-to="0" class="active"></li>
+			<li data-target="#project-three" data-slide-to="1"></li>
+			<li data-target="#project-three" data-slide-to="2"></li>
+			<li data-target="#project-three" data-slide-to="3"></li>
+		</ol>
+
+		<div class="carousel-inner">
+			<div class="item active"> <img src="./Assets/007.png" alt="Opening" style="width:400px"> </div>
+			<div class="item"> <img src="./Assets/008.png" alt="The effect when shooting different types of bullets" style="width:400px"> </div>
+			<div class="item"> <img src="./Assets/009.png" alt="Different kinds of tools dropped by enemies" style="width:400px"> </div>
+			<div class="item"> <img src="./Assets/010.png" alt="One of the boss bullets vs one of the boss" style="width:400px"> </div>
+		</div>
+
+		<a class="left carousel-control" href="#project-three" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#project-three" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+	<!--Slide show end-->
+
+	<br/>
+
+	<div class="row game-info">
+		<div class="col-sm-3">
+			<h4>Platform:</h4>
+			<p>Window PC</p>
+			<br>
+			<h4>Software:</h4>
+			<p>Visual Studio 2017</p>
+			<br>
+			<h4>Langauges:</h4>
+			<p>C++</p>
+			<br>
+			<h4>Finished at:</h4>
+			<p>2017 Summer</p>
+		</div>
+		<div class="col-sm-9">
+			<h3>Imitator</h3>
+			<p>A game that allows player to imitate the enemies' bullets</p>
+			<br>
+
+			<h3>Design:</h3>
+			<h5>Bullet type</h5>
+			<p>Default bullet : a bullet that will shoot forward</p>
+			<p>Two-way bullet : two bullets that will shoot in two sides</p>
+			<p>Long bullet : bullet that is long and have bigger damage</p>
+			<p>Shot gun : bullet that have a short range but with a large amounts of damage</p>
+			<p>Fire ball : bullet that will have a chance to make enemies on fire</p>
+			<p>Grenade Launcher : will shoot a grenade that will explode after collision</p>
+			<p>Random Shot : will shot at random direction</p>
+			<p>Light Ball : can go though enemies and provide continuous damage</p>
+			<p>Homing bullet : will trace enemies within a certain range</p>
+			<p>Lazer : a straight line that provide damage to all enemies that touch it</p>
+			<p>Blast shot : a certain number of bullets that shoot to the front with different angel</p>
+			<p>Firework : shooting a small bullet that will shoot split into tons of bullets in all direction</p>
+			<p>Rocket : provide damage and explosion after collision</p>
+			<p>Lazer Beam : a thicc lazer that will provide huge damage to the enemies that touch it</p>
+			<br>
+
+			<h5>Tools:</h5>
+			<p>Green Shield : Shield that will increase the size when multiple green shields are picked up</p>
+			<p>Yellow Shield : Shield that have health, the bigger health it has, the larger it will be</p>
+			<p>Blue Shield : Shield that can replace health, will slowly decrease when not used</p>
+			<p>Health Pack : will recover health</p>
+			<p>Imumium : Allow player to hold more bullet types at once</p>
+			<p>Auspicious Stone : Increase the chance for enemies to drop tools</p>
+
+			<h4>Download:</h4>
+			<a href="./Assets/Imitator.zip">
+				<h1> <span class="glyphicon glyphicon-download-alt"> </h1>
+			</a>
+
+			<br>
+
+			<h4>Code:</h4>
+			<a href="https://github.com/Walter0697/Imitator">
+				<img src="./Assets/GitHub-Mark-Light-64px.png" />
+			</a>
+		</div>
+	</div>
+
+</body>
+</html>

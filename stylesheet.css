@@ -1,0 +1,64 @@
+body{
+	color:#0080FF;
+	background-color: #000000;
+	background-image:url('./Assets/bgpic.jpg');
+	background-position:right -20px bottom -90px;
+    background-repeat:no-repeat;
+}
+
+table
+{
+	border : none;
+}
+
+td
+{
+	width : 150px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #000000;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	font-size:17px;
+	letter-spacing : 3px;
+}
+	
+#header a, #headbar a{
+	color: #00FFFF;
+}
+
+#header a:hover, #headbar a:hover{
+	color: white;
+}
+
+footer {
+	background-color: #f2f2f2;
+}
+
+#headbar > .active > a{
+	background-color: grey;
+}
+
+.media-body{
+	vertical-align : middle;
+}
+
+.game-info > div > p{
+	color: white;
+}
+
+.front-page{
+	display: flex;
+	height : 500px;
+	align-items: center;
+	justify-content: center;
+}
+
+hr{
+	height:2px;
+	color:#00FFFF;
+	background-color:#00FFFF;
+	border:none
+}
