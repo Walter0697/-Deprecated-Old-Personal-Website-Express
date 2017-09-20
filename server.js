@@ -32,6 +32,10 @@ app.get('/resume', function(req, res){
 	res.sendFile(__dirname + '/public/resume.html');
 });
 
+app.get('/project/:number', function(req, res){
+	res.sendFile(_dirname + '/public/project-' + req.params.name + ".html");
+});
+
 app.get("*", function(req, res){
 	res.send(404);
 });
