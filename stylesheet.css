@@ -2,7 +2,7 @@ body{
 	color:#0080FF;
 	background-color: #000000;
 	background-image:url('./Assets/bgpic.jpg');
-	background-position:right -20px bottom -90px;
+	background-position:left 0px bottom -60px;
     background-repeat:no-repeat;
 }
 
@@ -16,6 +16,10 @@ td
 	width : 150px;
 }
 
+#about {
+	height: 580px;
+}
+
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
@@ -23,6 +27,19 @@ td
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
 	font-size:17px;
 	letter-spacing : 3px;
+}
+
+.title{
+	font-family: 'Press Start 2P', cursive;
+}
+
+.jumbotron {
+	background-image:url("./Assets/topicbg.png");
+	text-shadow: 5px 5px white
+}
+
+#namebar > h1{
+	font-family: 'Permanent Marker', cursive;
 }
 	
 #header a, #headbar a{
@@ -54,6 +71,7 @@ footer {
 	height : 500px;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 hr{
