@@ -33,8 +33,8 @@ app.get('/resume', function(req, res){
 });
 
 app.get('/grade', function(req, res){
-	res.contentType('application/pdf')
-    res.sendFile(path.join(__dirname + '/public/gradepage.pdf'))
+	res.contentType('application/pdf');
+    res.sendFile(__dirname + '/public/gradepage.pdf');
 });
 
 app.get('/project-:number', function(req, res){
