@@ -6,12 +6,12 @@ body{
     background-repeat:no-repeat;
 }
 
-table
+.experience
 {
 	border : none;
 }
 
-td
+.experience td
 {
 	width : 150px;
 }
