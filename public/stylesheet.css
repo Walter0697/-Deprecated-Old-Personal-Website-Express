@@ -34,8 +34,8 @@ body{
 }
 
 .jumbotron {
-	background-image:url("./Assets/topicbg.png");
-	text-shadow: 5px 5px white
+	background-color: #444444;
+	text-shadow: 5px 5px white;
 }
 
 #namebar > h1{
@@ -67,7 +67,6 @@ footer {
 }
 
 .front-page{
-	display: flex;
 	height : 500px;
 	align-items: center;
 	justify-content: center;
