@@ -35,7 +35,7 @@ body{
 
 .jumbotron {
 	background-color: #444444;
-	text-shadow: 3px 3px white;
+	text-shadow: 4px 4px #00008B;
 }
 
 #namebar > h1{
