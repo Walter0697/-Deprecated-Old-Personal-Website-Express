@@ -1,7 +1,7 @@
 //Code by Walter Cheng
 
 //loading nescessary modules and setting up constant value
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 3000;
 //const ipAddress = "localhost";
 const ipAddress = "45.77.110.134";
 const express = require('express');
