@@ -2,8 +2,8 @@
 
 //loading nescessary modules and setting up constant value
 const PORT = process.env.PORT || 80;
-//const ipAddress = "localhost";
-const ipAddress = "45.77.110.134";
+const ipAddress = "localhost";
+//const ipAddress = "45.77.110.134";
 const express = require('express');
 const app = express();
 

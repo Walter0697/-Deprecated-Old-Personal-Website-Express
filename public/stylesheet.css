@@ -1,7 +1,7 @@
 body{
 	color:#0080FF;
 	background-color: #000000;
-	background-image:url('./Assets/bgpic.jpg');
+	background-image:url('../Assets/bgpic.jpg');
 	background-position:left 0px bottom -60px;
     background-repeat:no-repeat;
 }
