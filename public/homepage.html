@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html>
+<title>Walter Cheng</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--font from google font-->
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+<!--style from the template-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--icon for programming language-->
+<link rel="stylesheet" href="./font-mfizz-2.4.1/font-mfizz.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color:#0080FF;
+    background-color: #111;
+    line-height: 1.8;
+    
+}
+
+/* Combine the font with the original css from template */
+.w3-top{
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    color: #00FFFF;
+    font-size: 18px;
+}
+
+#home{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.bgimg-2, .bgimg-3, .bgimg-4{
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-font{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.blue-color{
+  background-color: #444444;
+  text-shadow: 4px 4px #00008B;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/Assets/headbar_background.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url('/Assets/project-background.jpg');
+    min-height: 400px;
+}
+
+/* Third image (Resume) */
+.bgimg-3 {
+    background-image: url('/Assets/resume-background.jpg');
+    min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+    background-image: url('/Assets/contact-background.jpg');
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECT</a>
+    <a href="#resume" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-file-word-o"></i> RESUME </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="myNavbar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECT</a>
+    <a href="#resume" class="w3-bar-item w3-button" onclick="toggleFunction()">RESUME</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WALTER CHENG</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-32" id="about">
+  <h3 class="w3-center text-font">ABOUT ME</h3>
+  <p class="w3-center w3-padding-32 text-font">I am a programmer who like to learn new thing, create things, make beautiful things that people love!</p>
+
+  <!-- programming langauge-->
+  <p class="w3-large w3-center w3-padding-8 text-font">Technical Experience:</p>
+  <!--items here -->
+  <p style="font-size:20px"><i class="icon-cplusplus"></i>&nbsp;&nbsp;&nbsp;C++&nbsp;&nbsp;&nbsp;<span style="font-size:12px"><i class="fa fa-gears"></i> Currently using</span></p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="icon-java-bold"></i>&nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp;<span style="font-size:12px"><i class="fa fa-gears"></i> Currently using</span></p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="icon-python"></i>&nbsp;&nbsp;&nbsp;Python</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="icon-git"></i>&nbsp;&nbsp;&nbsp;Git&nbsp;&nbsp;&nbsp;<span style="font-size:12px"><i class="fa fa-gears"></i> Currently using</span></p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="fa fa-linux"></i>&nbsp;&nbsp;&nbsp;Linux</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="icon-c"></i>&nbsp;&nbsp;&nbsp;C</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="fa fa-star"></i>&nbsp;&nbsp;&nbsp;OpenGL&nbsp;&nbsp;&nbsp;<span style="font-size:12px"><i class="fa fa-gears"></i> Currently using</span></p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="fa fa-android"></i>&nbsp;&nbsp;&nbsp;Android Studio&nbsp;&nbsp;&nbsp;<span style="font-size:12px"><i class="fa fa-gears"></i> Currently using</span></p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="fa fa-star"></i>&nbsp;&nbsp;&nbsp;SFML</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="fa fa-star"></i>&nbsp;&nbsp;&nbsp;Scheme&nbsp;&nbsp;&nbsp;<span style="font-size:12px"><i class="fa fa-gears"></i> Currently using</span></p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+  <p style="font-size:20px"><i class="fa fa-star"></i>&nbsp;&nbsp;&nbsp;Javascript</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+
+  <p class="w3-large w3-center w3-padding-8 text-font">Still more here:</p>
+  <p style="font-size:50px" class="w3-center">
+    <i class="icon-css"></i>&nbsp;&nbsp;
+    <i class="icon-html"></i>&nbsp;&nbsp;
+    <i class="icon-nodejs"></i>&nbsp;&nbsp;
+    <i class="icon-mongodb"></i>&nbsp;&nbsp;
+    <i class="icon-npm"></i>&nbsp;&nbsp;
+  </p>
+
+  <p class="w3-large w3-center w3-padding-8 text-font">I will know it in the future:</p>
+  <p style="font-size:50px" class="w3-center">
+    <i class="icon-unity"></i>&nbsp;&nbsp;
+    <i class="fa fa-apple"></i>&nbsp;&nbsp;
+    <i class="icon-reactjs"></i>&nbsp;&nbsp;
+    <i class="icon-csharp"></i>&nbsp;&nbsp;
+    <i class="icon-mysql"></i>&nbsp;&nbsp;
+  </p>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge blue-color w3-wide">PROJECT</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center text-font">GAME-RELATED PROJECT</h3>
+  <p class="w3-center text-font"><em>Here are some of my latest projects.<br> Click on them to browse more information</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+
+    <div class="w3-col m4">
+      <a href="/project#imitator"><img src="/Assets/game3.png" style="width:100%" class="w3-hover-opacity" alt="Imitator"></a>
+    </div>
+
+    <div class="w3-col m4">
+      <a href="/project#music-shooter"><img src="/Assets/game1.png" style="width:100%"  class="w3-hover-opacity" alt="Music shooter"></a>
+    </div>
+
+    <div class="w3-col m4">
+      <a href="/project#ball-game"><img src="/Assets/game2.png" style="width:100%" class="w3-hover-opacity" alt="Ball Game"></a>
+    </div>
+
+  </div>
+  <a href="/project" class="w3-center">
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">SHOW MORE</button>
+  </a>
+</div>
+
+<!-- Third Parallax Image with Resume Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge blue-color w3-wide">RESUME</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-center w3-padding-64" id="resume"> 
+    
+    <a href="./Assets/waltercheng.pdf" download>
+      <h1><span class="fa fa-file w3-hover-opacity"></span></h1>
+      <p>Full resume can be downloaded here</p>
+    </a>
+
+    <p>3rd Year Undergraduate, CGPA 10.7/12.0 (A-) <a href="/grade">(See grade page)</a></p>
+    <p>Carleton University Entrance Scholarship</p>
+    <p>Expected Graduation April 2019</p>
+    <p>Dean's Honor List(2015 - 2016)</p>
+    <br/>
+
+    <p class="w3-large w3-center w3-padding-8 text-font">Working Experience:</p>
+    <img src="/Assets/carleton.png" style="width:30%"class="w3-hover-opacity" alt="Carleton University" />
+    <p style="font-weight:bold">Teaching Assistant for Computer Science faculty in Carleton University<br/>
+    Jan 2017 - Apr 2017 Introduction to Computational Thinking for Arts and Social Science<br/>
+    Sep 2017 - Dec 2017 Introudction to Computer Science I</p>
+
+    <img src="/Assets/nokia.png" style="width:30%"class="w3-hover-opacity" alt="Nokia" />
+    <p style="font-weight:bold">Embedded Software Developer in Nokia<br/>
+    May 2017 - Aug 2017</p>
+
+</div>
+
+<!-- Fourth Parallax Image with Contact Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge blue-color w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+
+  <div class="w3-row w3-padding-32 w3-section w3-center">
+    <div class="w3-col m12 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Ottawa, CA<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +1(343)777-8008)<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: walterpakwai@live.com<br>
+      </div>
+      <p>Or check me out in my social media!</p>
+      <div class="w3-xlarge w3-section">
+        <a href="https://www.facebook.com/walterwaiiiiii"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/TheWai_21?lang=zh-tw"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/wai-walter-cheng/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a href="https://github.com/Walter0697/"><i class="fa fa-github w3-hover-opacity"></i></a>
+      </div>
+
+
+      <!--p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form-->
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/scroll.js" type="text/javascript"></script>
+
+<script>
+/*function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}*/
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("myNavbar");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    } 
+}
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</body>
+</html>
