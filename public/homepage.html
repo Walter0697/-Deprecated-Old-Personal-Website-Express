@@ -59,25 +59,25 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('/Assets/headbar_background.jpg');
+    background-image: url('/Assets/background/headbar_background.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url('/Assets/project-background.jpg');
+    background-image: url('/Assets/background/project-background.jpg');
     min-height: 400px;
 }
 
 /* Third image (Resume) */
 .bgimg-3 {
-    background-image: url('/Assets/resume-background.jpg');
+    background-image: url('/Assets/background/resume-background.jpg');
     min-height: 400px;
 }
 
 /* Fourth image (Contact) */
 .bgimg-4 {
-    background-image: url('/Assets/contact-background.jpg');
+    background-image: url('/Assets/background/contact-background.jpg');
     min-height: 400px;
 }
 
@@ -217,25 +217,41 @@ body, html {
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center text-font">GAME-RELATED PROJECT</h3>
+  
   <p class="w3-center text-font"><em>Here are some of my latest projects.<br> Click on them to browse more information</em></p><br>
-
+  <h3 class="w3-center text-font">GAME-RELATED PROJECTS</h3>
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
 
     <div class="w3-col m4">
-      <a href="/project#imitator"><img src="/Assets/game3.png" style="width:100%" class="w3-hover-opacity" alt="Imitator"></a>
+      <a href="/project#imitator"><img src="/Assets/project_screenshot/imitator.png" style="width:100%" class="w3-hover-opacity" alt="Imitator"></a>
     </div>
 
     <div class="w3-col m4">
-      <a href="/project#music-shooter"><img src="/Assets/game1.png" style="width:100%"  class="w3-hover-opacity" alt="Music shooter"></a>
+      <a href="/project#music-shooter"><img src="/Assets/project_screenshot/musicshooter.png" style="width:100%"  class="w3-hover-opacity" alt="Music shooter"></a>
     </div>
 
     <div class="w3-col m4">
-      <a href="/project#ball-game"><img src="/Assets/game2.png" style="width:100%" class="w3-hover-opacity" alt="Ball Game"></a>
+      <a href="/project#ball-game"><img src="/Assets/project_screenshot/ballgame.png" style="width:100%" class="w3-hover-opacity" alt="Ball Game"></a>
     </div>
 
   </div>
+  <br/>
+
+  <h3 class="w3-center text-font">OTHER PROJECTS</h3>
+  
+  <div class="w3-row-padding w3-center">
+
+    <div class="w3-col m6">
+      <a href="/project#dinder"><img src="/Assets/project_screenshot/dinder.png" style="width:75%" class="w3-hover-opacity" alt="Dinder"></a>
+    </div>
+
+    <div class="w3-col m6">
+      <a href="/project#waltercheng"><img src="/Assets/project_screenshot/waltercheng.png" style="width:75%" class="w3-hover-opacity" alt="WalterCheng"></a>
+    </div>
+
+  </div>
+
   <a href="/project" class="w3-center">
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">SHOW MORE</button>
   </a>
