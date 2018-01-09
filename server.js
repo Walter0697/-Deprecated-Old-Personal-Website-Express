@@ -6,6 +6,8 @@ const PORT = process.env.PORT || 80;
 const ipAddress = "45.77.110.134";
 const express = require('express');
 const app = express();
+//for checking the type of the file
+const mime = require('mime-types');
 
 app.use(express.static(__dirname + '/public'));
 
@@ -21,6 +23,11 @@ app.get('/project', function(req, res){
 app.get('/grade', function(req, res){
 	res.contentType('application/pdf');
     res.sendFile(__dirname + '/public/gradepage.pdf');
+});
+
+app.get('/server_related/:filename', function(req, res){
+	res.contentType(mime.lookup(_dirname + '/public/server_related' + req.params.filename));
+	res.sendFile(__dirname + '/public/server_related' + req.params.filename);
 });
 
 app.get("*", function(req, res){
