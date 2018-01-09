@@ -26,7 +26,6 @@ app.get('/grade', function(req, res){
 });
 
 app.get('/server_related/:filename', function(req, res){
-	res.contentType(mime.lookup(_dirname + '/public/server_related' + req.params.filename));
 	res.sendFile(__dirname + '/public/server_related' + req.params.filename);
 });
 
