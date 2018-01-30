@@ -111,12 +111,9 @@ function getProjects(sort_method)
 		var hash = window.location.hash;
 		if (hash !== "")
 		{
-
 			$('html, body').animate({
-				scrollTop: $container.offset().top
-			}, 800, function(){
-				window.location.hash = hash;
-			});
+				scrollTop: $(hash).offset().top
+			}, 800);
 		}
 	});
 }
