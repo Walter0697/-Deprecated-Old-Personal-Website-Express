@@ -1,0 +1,14 @@
+{
+	"technology":
+	{
+		"C++": "<i class='icon-cplusplus'></i>&nbsp;&nbsp;C++&nbsp;&nbsp;&nbsp;",
+		"SFML": "<image src='/Assets/icon/sfml.png' class='icon-16' />&nbsp;&nbsp;SFML&nbsp;&nbsp;&nbsp;",
+		"Visual Studio": "<image src='/Assets/icon/visualstudio.png' class='icon-16' />&nbsp;&nbsp;Visual Studio&nbsp;&nbsp;&nbsp;",
+		"Java": "<i class='icon-java'></i>&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp;",
+		"Processing": "<image src='/Assets/icon/processing.png' class='icon-16' />&nbsp;&nbsp;Processing&nbsp;&nbsp;&nbsp;",
+		"OpenGL": "<image src='/Assets/icon/opengl.png' class='icon-16' />&nbsp;&nbsp;OpenGL&nbsp;&nbsp;&nbsp;",
+		"Android Studio": "<i class='fa fa-android'></i>&nbsp;&nbsp;Android Studio&nbsp;&nbsp;&nbsp;",
+		"Bootstrap": "<i class='icon-bootstrap'></i>&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;&nbsp;",
+		"Node.js":"<i class='icon-nodejs'></i>&nbsp;&nbsp;node.js&nbsp;&nbsp;&nbsp;"
+	}
+}

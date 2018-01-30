@@ -1,0 +1,79 @@
+{
+	"projects":
+	[
+	{
+		"name":"Imitator",
+		"short":"imitator",
+		"image":"./Assets/project_screenshot/imitator.png",
+		"github":"https://github.com/Walter0697/Imitator",
+		"technology":["C++", "SFML", "Visual Studio"],
+		"description":["Imitator is a game that forced player to copy enemies' bullets once they eliminated the enemies. This game requires player to think about which enemies should be killed and what kind of bullets will counter different types of enemies. After player killed the boss, they will have a powerful bullet type but it will be easily replaced after player kill tons of normal enemies."],
+		"download":{"Download Normal Version":"./Assets/zip_file/Imitator.zip",
+					"All Tools Unlocked Version":"./Assets/zip_file/ImitatorUnlock.zip"},
+		"extra":"<a href='https://www.microsoft.com/en-us/download/details.aspx?id=48145' style='color:#666666'>Some computers may need to download Visual C++ Redistibutable in order to run this game, click here</a>",
+		"type":"Game-related Projects",
+		"index":"3"
+	},
+	{
+		"name":"Dinder",
+		"icon":"./Assets/icon/dinder.png",
+		"short":"dinder",
+		"image":"./Assets/project_screenshot/dinder.png",
+		"github":"https://github.com/Walter0697/Dinder",
+		"technology":["Java", "Android Studio"],
+		"description":["Mobile app that will search through the database to provide random recipe to the user. It will generate recipe according to the user preferences. Swipe Right and Left to Like and Dislike the recipe.",
+						"Group project with Zahra Ahmed and Afifa Asad"],
+		"youtube":"https://www.youtube.com/watch?v=xD4k4IEFl0g",
+		"download":{"Download here: ":"https://play.google.com/store/apps/details?id=com.team206255.dineder"},
+		"type":"Other Projects",
+		"group":"Yes",
+		"index":"6"
+	},
+	{
+		"name":"Music Shooter",
+		"short":"music-shooter",
+		"image":"./Assets/project_screenshot/musicshooter.png",
+		"github":"",
+		"technology":["C++", "SFML", "Visual Studio"],
+		"description":["This is normal horizontal scrolling game for learning the concept of vertical scrolling. Most assets were drawn by myself such as player, enemies and bullets and the rest are from open game art!"],
+		"download":{"Download here: ":"./Assets/zip_file/Music Shooter.zip"},
+		"extra":"<a href='https://www.microsoft.com/en-us/download/details.aspx?id=48145' style='color:#666666'>Some computers may need to download Visual C++ Redistibutable in order to run this game, click here</a>",
+		"type":"Game-related Projects",
+		"index":"2"
+	},
+	{
+		"name":"Ball Game",
+		"short":"ball-game",
+		"image":"./Assets/project_screenshot/ballgame.png",
+		"github":"https://github.com/Walter0697/Ball-Game",
+		"technology":["Java", "Processing"],
+		"description":["This is a coding practice gmae that based on the game rule of a mobile app game : BBTAN from 111%, I also added more tools and different setting in order to make the game funnier"],
+		"download":{"Download here: ":"./Assets/zip_file/Ball-Game-windows.zip"},
+		"type":"Game-related Projects",
+		"index":"1"
+	},
+	{
+		"name":"Flying Undersized Controlled Killer",
+		"short":"fly",
+		"image":"./Assets/project_screenshot/fly.png",
+		"github":"https://github.com/Walter0697/Flying-Undersized-Controlled-Killer",
+		"technology":["C++", "OpenGL", "Visual Studio"],
+		"description":["Flying Undersized Controlled Killer is a game about a fly who is trying to kill human with his ability. The fly can split on different enemies and eliminate them but it would be more difficult for it to do that with human. Therefore, it will need to take a block from the ground and drop above the human.",
+						"Group project with Mohamed Kazma and Jeremy Melone"],
+		"type":"Game-related Projects",
+		"group":"yes",
+		"index":"4"
+	},
+	
+	{
+		"name":"waltercheng.com(this website!)",
+		"short":"waltercheng",
+		"image":"./Assets/project_screenshot/waltercheng.png",
+		"github":"https://github.com/Walter0697/Personal-Porfolio",
+		"technology":["Node.js", "Bootstrap"],
+		"description":["Starting from a template and based on my own knowledge to build up this website!"],
+		"type":"Other Projects",
+		"index":"5"
+	}
+	]
+}

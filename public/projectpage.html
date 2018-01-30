@@ -71,6 +71,30 @@ body, html {
   text-shadow: 4px 4px #00008B;
 }
 
+/* styles for the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content div{
+    color: black;
+    background-color: #f9f9f9;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
+
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url('/Assets/background/headbar_background.jpg');
@@ -133,150 +157,18 @@ body, html {
 
 <div class="w3-content w3-center">
 
-  <div class="w3-content w3-container">
-
-  <p id="#game" class="w3-large w3-center text-font w3-padding-32">Game-related Projects</p>
-
-    <!-- Project Imitator -->
-    <div id="imitator" class="project">
-        <div class="media">
-          <div class="media-left">
-            <img class="d-flex align-self-center mr-3" src="./Assets/project_screenshot/imitator.png" alt="imitator" style="width:250px"/>
-            <br/>
-          </div>
-          <div class="media-body text-center">
-            <h2>Imitator <br/><a href="https://github.com/Walter0697/Imitator"><i class="fa fa-github-square"></i>&nbsp;<span style="font-size:12px">Code here!</span></a></h2>
-            <br/>
-            <h5>Technology used:</h5>
-            <p style="font-size:15px">
-            <i class="icon-cplusplus"></i>&nbsp;&nbsp;C++&nbsp;&nbsp;&nbsp;
-            <image src="/Assets/icon/sfml.png" class="icon-16" />&nbsp;&nbsp;SFML&nbsp;&nbsp;&nbsp;
-            <image src="/Assets/icon/visualstudio.png" class="icon-16" />&nbsp;&nbsp;Visual Studio&nbsp;&nbsp;&nbsp;
-            </p>
-            <p>Imitator is a game that forced player to copy enemies' bullets once they eliminated the enemies. This game requires player to think about which enemies should be killed and what kind of bullets will counter different types of enemies. After player killed the boss, they will have a powerful bullet type but it will be easily replaced after player kill tons of normal enemies.<br/></p>
-            <p style="color:#666666">Download here:</p>
-            <p style="color:#666666">Normal Version: <a href="./Assets/zip_file/Imitator.zip" class="fa fa-download"></a></p>
-            <p style="color:#666666">All Tools Unlocked Version: <a href="./Assets/zip_file/ImitatorUnlock.zip" class="fa fa-download">
-            </a></p>
-            <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145" style="color:#666666">Some computers may need to download Visual C++ Redistibutable in order to run this game, click here</a>
-          </div>
-        </div>
+  <div class="w3-padding-32 dropdown">
+    <button id="sortBtn" class="w3-button w3-light-grey">Sorted By type<i class="fa fa-arrow-down w3-margin-left"></i></button>
+    <div id="sortDropdown" class="dropdown-content">
+      <div id="type" class="sorting w3-hover-black">Type</div>
+      <div id="date" class="sorting w3-hover-black">Date</div>
+      <div id="language" class="sorting w3-hover-black">Language</div>
+      <div id="group" class="sorting w3-hover-black">Group</div>
     </div>
-    <br/>
-    
-    <!-- Project Music shooter -->
-    <div id="music-shooter" class="project">
-        <div class="media">
-          <div class="media-left">
-            <img class="d-flex align-self-center mr-3" src="./Assets/project_screenshot/musicshooter.png" style="width:250px"/>
-          </div>
-          <div class="media-body text-center">
-            <h2>Music Shooter</h2>
-            <br/>
-            <h5>Technology used:</h5>
-            <p style="font-size:15px">
-            <i class="icon-cplusplus"></i>&nbsp;&nbsp;C++&nbsp;&nbsp;&nbsp;
-            <image src="/Assets/icon/sfml.png" class="icon-16" />&nbsp;&nbsp;SFML&nbsp;&nbsp;&nbsp;
-            <image src="/Assets/icon/visualstudio.png" class="icon-16" />&nbsp;&nbsp;Visual Studio&nbsp;&nbsp;&nbsp;
-            </p>
-            <p>This is normal horizontal scrolling game for learning the concept of vertical scrolling. Most assets were drawn by myself such as player, enemies and bullets and the rest are from open game art!<br/></p>
-            <p style="color:#666666">Download here: <a href="./Assets/zip_file/Music Shooter.zip" class="fa fa-download"></a></p>
-          </div>
-        </div>
-    </div>
-    <br/>
+  </div>
 
-    <!-- Project Ball Game -->
-    <div id="ball-game" class="project">
-        <div class="media">
-          <div class="media-left">
-            <img class="d-flex align-self-center mr-3" src="./Assets/project_screenshot/ballgame.png" alt="Ball Game" style="width:250px"/>
-            <br/>
-          </div>
-          <div class="media-body text-center">
-            <h2>Ball Game <br/><a href="https://github.com/Walter0697/Ball-Game"><i class="fa fa-github-square"></i>&nbsp;<span style="font-size:12px">Code here!</span></a></h2>
-            <br/>
-            <h5>Technology used:</h5>
-            <p style="font-size:15px">
-            <i class="icon-java"></i>&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp;
-            <image src="/Assets/icon/processing.png" class="icon-16" />&nbsp;&nbsp;Processing&nbsp;&nbsp;&nbsp;
-            </p>
-            <p>This is a coding practice gmae that based on the game rule of a mobile app game : BBTAN from 111%, I also added more tools and different setting in order to make the game funnier<br/></p>
-            <p style="color:#666666">Download here: <a href="./Assets/zip_file/Ball-Game-windows.zip" class="fa fa-download"></a></p>
-          </div>
-        </div>
-    </div>
-    <br/>
-
-    <!-- Project Imitator -->
-    <div id="fly" class="project">
-        <div class="media">
-          <div class="media-left">
-            <img class="d-flex align-self-center mr-3" src="./Assets/project_screenshot/fly.png" alt="fly" style="width:250px"/>
-            <br/>
-          </div>
-          <div class="media-body text-center">
-            <h2>Flying Undersized Controlled Killer <br/><a href="https://github.com/Walter0697/Flying-Undersized-Controlled-Killer"><i class="fa fa-github-square"></i>&nbsp;<span style="font-size:12px">Code here!</span></a></h2>
-            <br/>
-            <h5>Technology used:</h5>
-            <p style="font-size:15px">
-            <i class="icon-cplusplus"></i>&nbsp;&nbsp;C++&nbsp;&nbsp;&nbsp;
-            <image src="/Assets/icon/opengl.png" class="icon-16" />&nbsp;&nbsp;OpenGL&nbsp;&nbsp;&nbsp;
-            <image src="/Assets/icon/visualstudio.png" class="icon-16" />&nbsp;&nbsp;Visual Studio&nbsp;&nbsp;&nbsp;
-            </p>
-            <p>Flying Undersized Controlled Killer is a game about a fly who is trying to kill human with his ability. The fly can split on different enemies and eliminate them but it would be more difficult for it to do that with human. Therefore, it will need to take a block from the ground and drop above the human. <br/> Group project with Mohamed Kazma and Jeremy Melone <br/></p>
-          </div>
-        </div>
-    </div>
-    <br/>
-
-    <p id="#game" class="w3-large w3-center text-font w3-padding-32">Other Projects</p>
-
-    <!-- Project Dinder -->
-    <div id="dinder" class="project">
-        <div class="media">
-          <div class="media-left">
-            <img class="d-flex align-self-center mr-3" src="./Assets/project_screenshot/dinder.png" alt="Dinder" style="width:250px"/>
-            <br/>
-          </div>
-          <div class="media-body text-center">
-            <h2><img src="./Assets/icon/dinder.png" class="icon-32"/>Dinder<br/><a href="https://github.com/Walter0697/Dinder"><i class="fa fa-github-square"></i>&nbsp;<span style="font-size:12px">Code here!</span></a></h2>
-            <br/>
-            <h5>Technology used:</h5>
-            <p style="font-size:15px">
-            <i class="icon-java"></i>&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-android"></i>&nbsp;&nbsp;Android Studio&nbsp;&nbsp;&nbsp;
-            </p>
-            <p>Mobile app that will search through the database to provide random recipe to the user. It will generate recipe according to the user preferences. Swipe Right and Left to Like and Dislike the recipe.<br/> Group project with Zahra Ahmed and Afifa Asad. </p>
-
-            <p style="color:#666666">Youtube Video: <a href="https://www.youtube.com/watch?v=xD4k4IEFl0g" class="fa fa-youtube-play"></a></p>
-            <p style="color:#666666">Download here: <a href="https://play.google.com/store/apps/details?id=com.team206255.dineder" class="fa fa-download"></a></p>
-          </div>
-        </div>
-    </div>
-    <br/>
-
-    <!-- Project Website -->
-    <div id="waltercheng" class="project">
-        <div class="media">
-          <div class="media-left">
-            <img class="d-flex align-self-center mr-3" src="./Assets/project_screenshot/waltercheng.png" alt="Waltercheng" style="width:250px"/>
-            <br/>
-          </div>
-          <div class="media-body text-center">
-            <h2>waltercheng.com(this website!)<br/><a href="https://github.com/Walter0697/Personal-Porfolio"><i class="fa fa-github-square"></i>&nbsp;<span style="font-size:12px">Code here!</span></a></h2>
-            <br/>
-            <h5>Technology used:</h5>
-            <p style="font-size:15px">
-            <i class="icon-bootstrap"></i>&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;&nbsp;
-            <i class="icon-nodejs"></i>&nbsp;&nbsp;node.js&nbsp;&nbsp;&nbsp;
-            </p>
-            <p>Starting from a template and based on my own knowledge to build up this website! </p>
-          </div>
-        </div>
-    </div>
-    <br/>
-
+  <div id="all-projects" class="w3-content w3-container">
+  <!--Project fetch from the server-->
   </div>
 </div>
 
@@ -318,6 +210,9 @@ function toggleFunction() {
 }
 
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+<!--JQuery and my own client-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/projectClient.js"></script>
 </body>
 </html>
