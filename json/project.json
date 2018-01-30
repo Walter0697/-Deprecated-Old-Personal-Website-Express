@@ -61,7 +61,7 @@
 		"description":["Flying Undersized Controlled Killer is a game about a fly who is trying to kill human with his ability. The fly can split on different enemies and eliminate them but it would be more difficult for it to do that with human. Therefore, it will need to take a block from the ground and drop above the human.",
 						"Group project with Mohamed Kazma and Jeremy Melone"],
 		"type":"Game-related Projects",
-		"group":"yes",
+		"group":"Yes",
 		"index":"4"
 	},
 	
@@ -74,6 +74,24 @@
 		"description":["Starting from a template and based on my own knowledge to build up this website!"],
 		"type":"Other Projects",
 		"index":"5"
+	},
+	
+	{
+		"name":"Video Juice",
+		"short":"video-juice",
+		"image":"./Assets/project_screenshot/video-juice.png",
+		"github":"https://github.com/esraa-saleh/scweConUHacks3",
+		"technology":["Python", "Bootstrap", "Shell Script"],
+		"hackathon":{"name":"ConUHackIII",
+					 "image":"./Assets/hackathon_icon/conuhackiii.jpeg",
+					 "link":"https://conuhacks.io/",
+					 "devpost":"https://devpost.com/software/scweconuhacks3"},
+		"description":["To assist ESL students or other second language students by analysising youtube videoes and find out the most common vocabulary spoken there",
+						"Group project with Cheldon Mahon, Esraa Saleh and Sahil Kapal"],
+		"type":"Hackathon Projects",
+		"group":"Yes",
+		"youtube":"https://www.youtube.com/watch?v=beVJbZg8xCA",
+		"index":"7"
 	}
 	]
 }

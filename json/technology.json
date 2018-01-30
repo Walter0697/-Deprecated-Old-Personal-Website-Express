@@ -9,6 +9,8 @@
 		"OpenGL": "<image src='/Assets/icon/opengl.png' class='icon-16' />&nbsp;&nbsp;OpenGL&nbsp;&nbsp;&nbsp;",
 		"Android Studio": "<i class='fa fa-android'></i>&nbsp;&nbsp;Android Studio&nbsp;&nbsp;&nbsp;",
 		"Bootstrap": "<i class='icon-bootstrap'></i>&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;&nbsp;",
-		"Node.js":"<i class='icon-nodejs'></i>&nbsp;&nbsp;node.js&nbsp;&nbsp;&nbsp;"
+		"Node.js":"<i class='icon-nodejs'></i>&nbsp;&nbsp;node.js&nbsp;&nbsp;&nbsp;",
+		"Python":"<i class='icon-python'></i>&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;",
+		"Shell Script":"<i class='icon-script'></i>&nbsp;&nbsp;Shell Script&nbsp;&nbsp;&nbsp;"
 	}
 }

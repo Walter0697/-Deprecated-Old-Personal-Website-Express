@@ -61,9 +61,18 @@ function getProjects(sort_method)
 			div_tag += project.name+'<br/>';
 
 			if (project.github)
-				div_tag += '<a href='+project.github+'><i class="fa fa-github-square"></i>&nbsp;<span style="font-size:12px">Code here!</span></a></h2><br/>';
+				div_tag += '<a href="'+project.github+'"><i class="fa fa-github-square"></i>&nbsp;<span style="font-size:12px">Code here!</span></a></h2><br/>';
 			else
 				div_tag += '</h2><br/>';
+
+			if (project.hackathon)
+			{
+				div_tag += '<a href="'+project.hackathon.link+'" class="w3-margin-left">';
+				div_tag += 'Project in '
+				div_tag += '<img src="'+project.hackathon.image+'" class="icon-32"/>';
+				div_tag += '    '+project.hackathon.name+'</a><br/>'; 
+				div_tag += '<a href="'+project.hackathon.devpost+'">DevPost Here!</a><br/>';
+			}
 
 			div_tag += '<h5>Technology used:</h5>';
 			div_tag += '<p style="font-size:15px">';

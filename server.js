@@ -42,7 +42,7 @@ app.post('/projects/:sort', function(req, res){
 
 			if (!(info.projects[i]['type'] in processDictionary))
 				processDictionary[info.projects[i]['type']] = [];
-			processDictionary[info.projects[i]['type']].push(info.projects[i]);
+			processDictionary[info.projects[i]['type']].unshift(info.projects[i]);
 		}
 		
 		for (var key in processDictionary)
@@ -100,7 +100,7 @@ app.post('/projects/:sort', function(req, res){
 
 			if (!(info.projects[i]['title'] in processDictionary))
 				processDictionary[info.projects[i]['title']] = [];
-			processDictionary[info.projects[i]['title']].push(info.projects[i]);
+			processDictionary[info.projects[i]['title']].unshift(info.projects[i]);
 		}
 
 		for (var key in processDictionary)
