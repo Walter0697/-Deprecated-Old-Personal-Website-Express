@@ -73,6 +73,25 @@ app.post('/projects/:sort', function(req, res){
 			}
 		}
 	}
+	else if (req.params.sort == "fav")
+	{
+		var counter = 1;
+		while (info.projects.length != 0)
+		{
+			for (var i = 0; i < info.projects.length; i++)
+			{
+				if (counter == info.projects[i].fav)
+				{
+					info.projects[i].title = "Personal favourite";
+					outputDictionary['projects'].unshift(info.projects[i]);
+					info.projects.splice(i, 1);
+					i--;
+				}
+			}
+			counter++;
+		}
+		outputDictionary['projects'] = outputDictionary['projects'].reverse();
+	}
 	else if (req.params.sort == "language")
 	{
 		for (var i = 0; i < info.projects.length; i++)

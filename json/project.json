@@ -12,6 +12,7 @@
 					"All Tools Unlocked Version":"./Assets/zip_file/ImitatorUnlock.zip"},
 		"extra":"<a href='https://www.microsoft.com/en-us/download/details.aspx?id=48145' style='color:#666666'>Some computers may need to download Visual C++ Redistibutable in order to run this game, click here</a>",
 		"type":"Game-related Projects",
+		"fav":"1",
 		"index":"3"
 	},
 	{
@@ -27,6 +28,7 @@
 		"download":{"Download here: ":"https://play.google.com/store/apps/details?id=com.team206255.dineder"},
 		"type":"Other Projects",
 		"group":"Yes",
+		"fav":"1",
 		"index":"6"
 	},
 	{
@@ -39,6 +41,7 @@
 		"download":{"Download here: ":"./Assets/zip_file/Music Shooter.zip"},
 		"extra":"<a href='https://www.microsoft.com/en-us/download/details.aspx?id=48145' style='color:#666666'>Some computers may need to download Visual C++ Redistibutable in order to run this game, click here</a>",
 		"type":"Game-related Projects",
+		"fav":"2",
 		"index":"2"
 	},
 	{
@@ -50,6 +53,7 @@
 		"description":["This is a coding practice gmae that based on the game rule of a mobile app game : BBTAN from 111%, I also added more tools and different setting in order to make the game funnier"],
 		"download":{"Download here: ":"./Assets/zip_file/Ball-Game-windows.zip"},
 		"type":"Game-related Projects",
+		"fav":"3",
 		"index":"1"
 	},
 	{
@@ -62,6 +66,7 @@
 						"Group project with Mohamed Kazma and Jeremy Melone"],
 		"type":"Game-related Projects",
 		"group":"Yes",
+		"fav":"2",
 		"index":"4"
 	},
 	
@@ -73,6 +78,7 @@
 		"technology":["Node.js", "Bootstrap"],
 		"description":["Starting from a template and based on my own knowledge to build up this website!"],
 		"type":"Other Projects",
+		"fav":"2",
 		"index":"5"
 	},
 	
@@ -91,7 +97,27 @@
 		"type":"Hackathon Projects",
 		"group":"Yes",
 		"youtube":"https://www.youtube.com/watch?v=beVJbZg8xCA",
+		"fav":"2",
 		"index":"7"
+	},
+
+	{
+		"name":"Pizzarena",
+		"short":"pizzarena",
+		"image":"./Assets/project_screenshot/pizzarena.jpg",
+		"github":"https://github.com/thfix13/hot-pizza",
+		"technology":["C#", "Unity"],
+		"hackathon":{"name":"McGame Jam",
+					 "image":"./Assets/hackathon_icon/mcgamejam.png",
+					 "link":"http://mcgamejam.com/",
+					 "devpost":"https://thfix13.itch.io/pizzarena"},
+		"description":["A fast 1v1 game about two pizza guy fighting for which topping is the best",
+						"Group project with Thomas Fix, Roberto Buelvas and Lorenzo Carrara"],
+		"type":"Hackathon Projects",
+		"group":"Yes",
+		"fav":"2",
+		"index":"8"
 	}
+
 	]
 }

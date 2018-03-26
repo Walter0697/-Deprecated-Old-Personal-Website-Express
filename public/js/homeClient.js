@@ -9,7 +9,7 @@ function getProjects()
 {
 	$.ajax({
 		method:"POST",
-		url:"/projects/date",
+		url:"/projects/fav",
 		dataType:"json"
 	})
 	.done(function(data){
