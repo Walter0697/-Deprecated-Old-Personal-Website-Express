@@ -3,7 +3,7 @@ var $temp_hash;
 
 $(document).ready(function(){
 	getTech();
-	getProjects("type");
+	getProjects("fav");
 
 	$("#sortBtn").click(function(){
 		$(".sorting").outerWidth($("#sortBtn").outerWidth());
