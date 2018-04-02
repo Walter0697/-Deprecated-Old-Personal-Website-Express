@@ -26,7 +26,7 @@
 						"Group project with Zahra Ahmed and Afifa Asad"],
 		"youtube":"https://www.youtube.com/watch?v=xD4k4IEFl0g",
 		"download":{"Download here: ":"https://play.google.com/store/apps/details?id=com.team206255.dineder"},
-		"type":"Other Projects",
+		"type":"Mobile Projects",
 		"group":"Yes",
 		"fav":"1",
 		"index":"6"
@@ -81,7 +81,7 @@
 		"github":"https://github.com/Walter0697/Personal-Porfolio",
 		"technology":["Node.js", "Bootstrap"],
 		"description":["Starting from a template and based on my own knowledge to build up this website!"],
-		"type":"Other Projects",
+		"type":"Web Projects",
 		"fav":"2",
 		"index":"5"
 	},
@@ -98,7 +98,6 @@
 		"fav":"2",
 		"index":"4"
 	},
-	
 	{
 		"name":"Video Juice",
 		"short":"video-juice",
@@ -116,7 +115,19 @@
 		"youtube":"https://www.youtube.com/watch?v=beVJbZg8xCA",
 		"fav":"2",
 		"index":"7"
+	},
+	{
+		"name":"Image Merger",
+		"short":"image-merger",
+		"image":"./Assets/project_screenshot/imagemerger.png",
+		"github":"https://github.com/Walter0697/ImageMerger",
+		"technology":["Node.js", "Pug"],
+		"description":["This is a very simple project that split or merge your projects",
+						"Yes, the idea is simple but it is fun"],
+		"type":"Web Projects",
+		"extra":"<a href='www.waltercheng.com:1997' style='color:#666666'>Try it right now in this link</a>",
+		"fav":"2",
+		"index":"9"
 	}
-
 	]
 }

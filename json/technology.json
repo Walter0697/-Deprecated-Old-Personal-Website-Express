@@ -13,6 +13,7 @@
 		"Python":"<i class='icon-python'></i>&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;",
 		"Shell Script":"<i class='icon-script'></i>&nbsp;&nbsp;Shell Script&nbsp;&nbsp;&nbsp;",
 		"Unity":"<i class='icon-unity'></i>&nbsp;&nbsp;Unity&nbsp;&nbsp;&nbsp;",
-		"C#":"<i class='icon-csharp'></i>&nbsp;&nbsp;C#&nbsp;&nbsp;&nbsp;"
+		"C#":"<i class='icon-csharp'></i>&nbsp;&nbsp;C#&nbsp;&nbsp;&nbsp;",
+		"Pug":"<image src='/Assets/icon/pug.png' class='icon-16' />&nbsp;&nbsp;Pug&nbsp;&nbsp;&nbsp;"
 	}
 }
