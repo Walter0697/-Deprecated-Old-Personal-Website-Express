@@ -78,7 +78,6 @@
 		"name":"waltercheng.com(this website!)",
 		"short":"waltercheng",
 		"image":"./Assets/project_screenshot/waltercheng.png",
-		"github":"https://github.com/Walter0697/Personal-Porfolio",
 		"technology":["Node.js", "Bootstrap"],
 		"description":["Starting from a template and based on my own knowledge to build up this website!"],
 		"type":"Web Projects",
