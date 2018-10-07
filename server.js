@@ -150,6 +150,10 @@ app.get('/puzzle/:keycode', function(req, res){
 	res.sendFile(__dirname + '/public/puzzle/' + req.params.keycode + ".html");
 });
 
+app.get('/jay/:keycode', function(req, res){
+	res.sendFile(__dirname + '/public/jay/' + req.params.keycode + ".html");
+});
+
 app.get("*", function(req, res){
 	res.send(404);
 });
