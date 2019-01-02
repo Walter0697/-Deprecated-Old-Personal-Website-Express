@@ -156,6 +156,11 @@ app.get('/jay/:keycode', function(req, res){
 	res.sendFile(__dirname + '/public/jay/' + req.params.keycode + ".html");
 });
 
+app.get('/new/year', function(req, res){
+	console.log("someone actually did it wtf");
+	res.sendFile(__dirname + '/public/new/year.html');
+})
+
 app.get("*", function(req, res){
 	res.send(404);
 });
